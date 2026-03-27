@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Khushveer N | Portfolio</title>
+    <meta name="description"
+          content="Portfolio of Khushveer N — BCA student at Kristu Jayanti University passionate about web development, IoT, Edge Computing, and DBMS." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+</head>
+<body>
+
+<!-- ========== PARTICLE CANVAS ========== -->
+<canvas id="particles"></canvas>
+
+<!-- ========== HEADER ========== -->
+<header>
+    <div class="header-inner">
+        <div class="logo">KN<span class="logo-dot">.</span></div>
+        <nav aria-label="Main navigation">
+            <a href="#about"    id="nav-about">About</a>
+            <a href="#education" id="nav-education">Education</a>
+            <a href="#skills"   id="nav-skills">Skills</a>
+            <a href="#certs"    id="nav-certs">Certifications</a>
+            <a href="#contact"  id="nav-contact">Contact</a>
+        </nav>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- ========== HERO / ABOUT ========== -->
+<section id="about" aria-labelledby="about-heading">
+    <div class="container hero">
+
+        <div class="hero-layout">
+            <!-- Photo -->
+            <div class="hero-photo reveal">
+                <div class="photo-ring">
+                    <img src="profile.jpg" alt="Khushveer N — Profile Photo" id="profile-photo" />
+                </div>
+                <div class="photo-status">
+                    <span class="status-dot"></span>
+                    Available for opportunities
+                </div>
+            </div>
+
+            <!-- Text -->
+            <div class="hero-text">
+                <div class="hero-greeting reveal">Hey there, I'm</div>
+                <h1 id="about-heading" class="reveal">
+                    <span class="name-gradient">Khushveer N</span>
+                </h1>
+                <p class="hero-tagline reveal">BCA Student &amp; Aspiring Developer</p>
+
+                <p class="hero-bio reveal">
+                    I'm a BCA student at Kristu Jayanti University with a keen interest
+                    in IoT, Edge Computing, and Database Management Systems. I love building
+                    clean, functional web applications and exploring emerging technologies
+                    that bridge the gap between hardware and software.
+                </p>
+
+                <div class="hero-interests reveal">
+                    <span class="interest-chip">🌐 IoT</span>
+                    <span class="interest-chip">⚡ Edge Computing</span>
+                    <span class="interest-chip">🗄️ DBMS</span>
+                    <span class="interest-chip">💻 Web Dev</span>
+                </div>
+
+                <div class="hero-cta reveal">
+                    <a href="#contact" class="btn btn-primary" id="cta-contact">
+                        ✉️&nbsp; Get In Touch
+                    </a>
+                    <a href="https://github.com/Khushveer-N" target="_blank" rel="noopener" class="btn btn-outline" id="cta-github">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                        &nbsp;GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========== EDUCATION ========== -->
+<section id="education" aria-labelledby="edu-heading">
+    <div class="container">
+
+        <div class="section-tag reveal">📚 Academic Journey</div>
+        <h2 class="section-title reveal" id="edu-heading">Education</h2>
+        <div class="section-divider reveal"></div>
+
+        <div class="timeline">
+
+            <!-- Degree -->
+            <div class="timeline-item reveal">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-badge">Ongoing</div>
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p class="timeline-place">Kristu Jayanti College (Deemed-to-be University), Bangalore</p>
+                    <p class="timeline-detail">Currently pursuing my degree, focusing on software development, database systems, and emerging technologies.</p>
+                </div>
+            </div>
+
+            <!-- 2nd PUC -->
+            <div class="timeline-item reveal">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-badge">Completed</div>
+                    <h3>2nd PUC (Pre-University Course)</h3>
+                    <p class="timeline-place">CMR National PU College, Bangalore</p>
+                    <p class="timeline-detail">Completed higher secondary education with a focus on science and mathematics.</p>
+                </div>
+            </div>
+
+            <!-- 10th -->
+            <div class="timeline-item reveal">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-badge">Completed</div>
+                    <h3>10th Standard (SSLC)</h3>
+                    <p class="timeline-place">R.T. Nagar Education Trust High School, Bangalore</p>
+                    <p class="timeline-detail">Completed secondary education building a strong academic foundation.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section id="skills" aria-labelledby="skills-heading">
+    <div class="container">
+
+        <div class="section-tag reveal">🛠 Technical Catalog</div>
+        <h2 class="section-title reveal" id="skills-heading">Skills &amp; Tools</h2>
+        <div class="section-divider reveal"></div>
+
+        <div class="skills-categories">
+
+            <!-- Technical Skills -->
+            <div class="skill-category reveal">
+                <h3 class="category-title"><span class="cat-icon">⚙️</span> Technical Skills</h3>
+                <div class="skill-pills">
+                    <span class="pill">HTML5</span>
+                    <span class="pill">CSS3</span>
+                    <span class="pill">JavaScript</span>
+                    <span class="pill">Node.js</span>
+                    <span class="pill">Python</span>
+                    <span class="pill">MySQL</span>
+                    <span class="pill">C Programming</span>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-category reveal">
+                <h3 class="category-title"><span class="cat-icon">🔧</span> Tools</h3>
+                <div class="skill-pills">
+                    <span class="pill tool">VS Code</span>
+                    <span class="pill tool">Git</span>
+                    <span class="pill tool">GitHub</span>
+                    <span class="pill tool">npm</span>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill-category reveal">
+                <h3 class="category-title"><span class="cat-icon">🤝</span> Soft Skills</h3>
+                <div class="skill-pills">
+                    <span class="pill soft">Team Work</span>
+                    <span class="pill soft">Quick Learner</span>
+                    <span class="pill soft">Analytical</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========== CERTIFICATIONS ========== -->
+<section id="certs" aria-labelledby="certs-heading">
+    <div class="container">
+
+        <div class="section-tag reveal">🏅 Courses Completed</div>
+        <h2 class="section-title reveal" id="certs-heading">Certifications</h2>
+        <div class="section-divider reveal"></div>
+
+        <div class="cert-grid">
+
+            <div class="cert-card reveal">
+                <div class="cert-icon">🎓</div>
+                <h3>Nasscom Digital Engineering</h3>
+                <p>Comprehensive course covering digital engineering fundamentals and industry practices.</p>
+            </div>
+
+            <div class="cert-card reveal">
+                <div class="cert-icon">💻</div>
+                <h3>Infosys Front End Development</h3>
+                <p>Front-end development training covering modern web technologies and best practices.</p>
+            </div>
+
+            <div class="cert-card reveal">
+                <div class="cert-icon">🐙</div>
+                <h3>GitHub</h3>
+                <p>Version control and collaborative development using Git and GitHub platform.</p>
+            </div>
+
+            <div class="cert-card reveal">
+                <div class="cert-icon">🟢</div>
+                <h3>Node.js</h3>
+                <p>Server-side JavaScript development with Node.js runtime and ecosystem.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+
+        <div class="section-tag reveal">📬 Get In Touch</div>
+        <h2 class="section-title reveal" id="contact-heading">Contact Me</h2>
+        <div class="section-divider reveal"></div>
+
+        <div class="contact-wrapper">
+
+            <!-- Info -->
+            <aside class="contact-info reveal">
+                <h3>Let's Connect</h3>
+                <p>
+                    I'm always open to new opportunities, collaborations,
+                    and friendly conversations. Feel free to reach out!
+                </p>
+
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">📧</div>
+                    <a href="mailto:khushveer2608@gmail.com">khushveer2608@gmail.com</a>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">📱</div>
+                    <a href="tel:+91636332745">636332745</a>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">🐙</div>
+                    <a href="https://github.com/Khushveer-N" target="_blank" rel="noopener">GitHub Profile</a>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">📍</div>
+                    <span>Bangalore, India</span>
+                </div>
+            </aside>
+
+            <!-- Form -->
+            <div class="reveal">
+                <form class="contact-form"
+                      id="contact-form"
+                      novalidate
+                      aria-label="Contact form">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text"
+                               id="name"
+                               name="name"
+                               placeholder="Your Name"
+                               autocomplete="name"
+                               required />
+                        <div class="field-hint" id="name-hint"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="you@example.com"
+                               autocomplete="email"
+                               required />
+                        <div class="field-hint" id="email-hint"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message"
+                                  name="message"
+                                  placeholder="Write your message here…"
+                                  required></textarea>
+                        <div class="field-hint" id="message-hint"></div>
+                    </div>
+
+                    <button type="submit" id="submit-btn">
+                        Send Message 🚀
+                    </button>
+
+                    <div id="response-message"
+                         role="alert"
+                         aria-live="polite"></div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+    <div class="container">
+        <p>Designed &amp; Built by <span>Khushveer N</span> &nbsp;·&nbsp;
+           BCA Student &nbsp;·&nbsp; &copy; 2026</p>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
